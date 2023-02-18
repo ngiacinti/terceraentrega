@@ -1,0 +1,334 @@
+/**GENERAL STYLE**/
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import "header";
+@import "colors";
+@import "footer";
+
+
+
+body {
+
+        font-family: 'Poppins', sans-serif;
+        color:$font_color;
+        text-align: left;
+        word-spacing: 2px;
+        text-indent: 1px; 
+        
+        h1 {
+            font-weight: 600;
+        }
+    
+}
+
+.sectionColor {
+background-color: $background_light;
+}
+
+/**GENERAL STYLE ENDS**/
+
+
+
+/**HOME PAGE**/
+.heroSection {
+    background-image: url("../img/hero-section.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 600px;
+
+   
+
+    .textContent {
+        height: 600px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .innerContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .buttom-hero {
+        background-color:$primary_color;
+        color: $font_color_light;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: $complementary_color;
+           
+        }
+
+        a {
+            text-decoration:none ;
+            color: white;
+          
+        }
+    }
+      
+    }
+
+
+#ecommerce {
+        width: 100%;
+        padding: 40px 0px 10px 0px;
+        text-align: center;
+        
+        
+        h2 {        
+            display: inline-block;
+            padding: 0px 20px;
+            
+        }
+        
+        .productCard {
+        
+                background-color: white;
+                border-radius: 20px;
+                text-align: center;
+                width: 30%;
+                align-items: center;
+                margin: 20px;
+                padding-bottom: 20px;
+                transition: all 1s;
+
+                &:hover{
+                    transform: translateY(-20px);                
+                }
+                
+        }
+        
+        .productCard img {
+              max-width: 300px;
+              margin: 10px;
+        }
+        
+        .buttonBuy {
+            background-color:$secondary_color;
+            padding: 10px 30px;
+            color: $font_color_light;
+            border-radius: 20px;
+            border: none;
+
+            &:hover  {
+            background-color: $highlight_color;
+         
+            }
+        }
+     
+}
+
+/**HOME PAGE ENDS**/
+
+
+
+
+
+/**FAQS PAGE**/
+
+.heroSectionFaqs {
+    background-image: url("../img/faqs-section.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 600px;
+
+    .textContent {
+        height: 600px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .innerContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+   
+    
+}
+
+
+.buttom-cta {
+    background-color:$primary_color;
+    color: $font_color_light;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    &:hover {
+        background-color: $complementary_color;
+       
+    }
+
+    a {
+        text-decoration:none ;
+        color: white;
+      
+    }
+}
+
+/**FAQS PAGE ENDS**/
+
+
+/**CUIDADOS PAGE**/
+
+.CuidadosSection {
+    background-image: url("../img/cuidados-section.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 600px;
+
+    .innerContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+    
+ 
+}
+
+
+/**CUIDADOS PAGE ENDS**/
+
+
+/**HISTORY PAGE**/
+
+.HistorySection {
+    background-image: url("../img/history-section.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 600px;
+}
+
+
+/**HISTORY PAGE ENDS**/
+
+
+
+/**CONTACT PAGE**/
+
+.ContactSection {
+    background-image: url("../img/contact-section.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 600px;
+
+    .textContent {
+        height: 600px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .innerContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+}
+
+.contactContent{
+    padding: 40px 20px;
+
+    input {
+        border: none;
+        border-radius: 20px;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    textarea{
+        border: none;
+        border-radius: 20px;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+       
+    .buttom-form {
+        background-color:$primary_color;
+        color: $font_color_light;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    
+        &:hover {
+            background-color: $complementary_color;
+           
+        }
+    
+        a {
+            text-decoration:none ;
+            color: white;
+          
+        } 
+    } 
+}
+    
+ 
+/**CONTACT PAGE ENDS**/
+
+
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+ 
+    .textContent{
+      padding-left: 15px;
+      text-align: center;
+    }
+
+    .productCard {
+        width: 90%;
+  
+    }
+    .productCard img {
+        max-width: 150px;
+
+    }
+    .map{
+       padding-top: 30px;
+
+    }
+}
+ 
+    
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .productCard {
+        width: 90%;
+  
+}
+.productCard img {
+    max-width: 200px;
+
+}
+
+
+} 
+    

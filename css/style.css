@@ -1,0 +1,241 @@
+/**GENERAL STYLE**/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header {
+  background-color: white;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.navbar-nav {
+  margin-left: auto; }
+
+.bg-light {
+  background-color: white !important; }
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 100%;
+  padding-bottom: 10px; }
+
+h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+p {
+  margin-bottom: 2%; }
+
+li {
+  list-style-type: none; }
+
+.logo {
+  max-width: 150px;
+  padding-top: 12px; }
+
+footer {
+  width: 100%;
+  background-color: #2B1713;
+  text-align: center;
+  min-height: 90px; }
+  footer .iconMedia {
+    padding: 80px 0px; }
+  footer .iconMedia img {
+    padding: 0px 20px; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #010101;
+  text-align: left;
+  word-spacing: 2px;
+  text-indent: 1px; }
+  body h1 {
+    font-weight: 600; }
+
+.sectionColor {
+  background-color: #F6F5F4; }
+
+/**GENERAL STYLE ENDS**/
+/**HOME PAGE**/
+.heroSection {
+  background-image: url("../img/hero-section.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px; }
+  .heroSection .textContent {
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+  .heroSection .innerContainer {
+    max-width: 1200px;
+    margin: 0 auto; }
+  .heroSection .buttom-hero {
+    background-color: #9EBD3E;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 10px; }
+    .heroSection .buttom-hero:hover {
+      background-color: #184A2C; }
+    .heroSection .buttom-hero a {
+      text-decoration: none;
+      color: white; }
+
+#ecommerce {
+  width: 100%;
+  padding: 40px 0px 10px 0px;
+  text-align: center; }
+  #ecommerce h2 {
+    display: inline-block;
+    padding: 0px 20px; }
+  #ecommerce .productCard {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    transition: all 1s; }
+    #ecommerce .productCard:hover {
+      transform: translateY(-20px); }
+  #ecommerce .productCard img {
+    max-width: 300px;
+    margin: 10px; }
+  #ecommerce .buttonBuy {
+    background-color: #C39B66;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none; }
+    #ecommerce .buttonBuy:hover {
+      background-color: #68372C; }
+
+/**HOME PAGE ENDS**/
+/**FAQS PAGE**/
+.heroSectionFaqs {
+  background-image: url("../img/faqs-section.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px; }
+  .heroSectionFaqs .textContent {
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+  .heroSectionFaqs .innerContainer {
+    max-width: 1200px;
+    margin: 0 auto; }
+
+.buttom-cta {
+  background-color: #9EBD3E;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+  .buttom-cta:hover {
+    background-color: #184A2C; }
+  .buttom-cta a {
+    text-decoration: none;
+    color: white; }
+
+/**FAQS PAGE ENDS**/
+/**CUIDADOS PAGE**/
+.CuidadosSection {
+  background-image: url("../img/cuidados-section.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px; }
+  .CuidadosSection .innerContainer {
+    max-width: 1200px;
+    margin: 0 auto; }
+
+/**CUIDADOS PAGE ENDS**/
+/**HISTORY PAGE**/
+.HistorySection {
+  background-image: url("../img/history-section.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px; }
+
+/**HISTORY PAGE ENDS**/
+/**CONTACT PAGE**/
+.ContactSection {
+  background-image: url("../img/contact-section.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px; }
+  .ContactSection .textContent {
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+  .ContactSection .innerContainer {
+    max-width: 1200px;
+    margin: 0 auto; }
+
+.contactContent {
+  padding: 40px 20px; }
+  .contactContent input {
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px; }
+  .contactContent textarea {
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px; }
+  .contactContent .buttom-form {
+    background-color: #9EBD3E;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+    .contactContent .buttom-form:hover {
+      background-color: #184A2C; }
+    .contactContent .buttom-form a {
+      text-decoration: none;
+      color: white; }
+
+/**CONTACT PAGE ENDS**/
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+  .textContent {
+    padding-left: 15px;
+    text-align: center; }
+  .productCard {
+    width: 90%; }
+  .productCard img {
+    max-width: 150px; }
+  .map {
+    padding-top: 30px; } }
+
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .productCard {
+    width: 90%; }
+  .productCard img {
+    max-width: 200px; } }
